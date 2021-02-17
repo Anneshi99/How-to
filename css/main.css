@@ -14,4 +14,13 @@ p {text-align: center;}
   margin-left: auto;
   margin-right: auto;
 }
+h1 {
+  color: #FFA500;
+}
+h2 {
+  color: #EFB261;
+}
+h1 {
+  font-family: serif;
+}
 </style>
