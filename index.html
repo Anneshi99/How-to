@@ -1,1 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
 
+<h1>Chicken Fried Rice Recipe</h1> 
+  <p>  <em>It's quick, easy, and delicious</em>  </p>
+   <p class="byline">By Anne Shi</p>
+ <br> <img src="https://images-gmi-pmc.edge-generalmills.com/338f16c8-9f80-4a44-ab22-6a3e9a2efdb2.jpg" alt="fried rice" style="width:50%">
+<p>
+ <div>
+  🕙
+  <p>Prep: 10mins</p>
+<p>Cook: 10mins</p> <p>Total: 20mins</p>
+<p>Servings: 2 </p>
+ </div>
+<hr>
+ 
+    <h2>Jump to:</h2>
+    <ul>
+      <li><a href="#Ingredients">Ingredients</a></li>
+      <li><a href="#Directions">Directions</a></li>
+      <li><a href="#Tips">Tips</a></li>
+    </ul>
+
+    <hr>
+
+<style>
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #ccc;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #555;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #F37E21;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 4px;
+  top: 0px;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+</style>
+
+<h2 id="Ingredients">Ingredients</h2>
+ <label class="container">1 Bowl of rice
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<label class="container">2 Eggs
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+  
+<label class="container">Garlic
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+  
+<label class="container">Salt
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+ 
+ <label class="container">Scallions
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+ 
+<label class="container">Onions
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<label class="container">Chicken
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+  
+<label class="container">Peas
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+ <label class="container">Carrot
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+ 
+<label class="container">Soy sauce
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<label class="container">Sesame oil
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+ 
+<label class="container">MSG
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+  
+ <label class="container">Salt and pepper
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+ 
+
+
+  <hr>
+<h2 id="Directions">Directions</h2>         
+  <ol>
+    <li>Mince the garlic and dice the scallions, onion, chicken, and carrot.
+     <li>Beat two egg and add a large of pinch salt.
+       <li>Add some oil into the pan and when it hot enough pour in the egg and scramble it. When it ¾ cooked take it out and put it onto a plate.
+       
+         <img src="https://www.cheatsheet.com/wp-content/uploads/2014/09/iStock_000028031218_Small.jpg" alt="egg" style="width:50%">
+        <br>
+         
+         <li>Add a bit more oil into the pan and add the garlic and onion then the chicken and stir fry it.
+           <li>When the chicken is half way cook add the carrots and peas and keep stir frying.
+            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2017%2F11%2F27212845%2Ffried-rice-102209307.jpg" alt="stir frying" style="width:50%">
+          <br>
+   <li> When everything is almost cook through add the bowl of rice and the scramble egg.
+               <li>Pour in soy sauce and cook, stirring until heated through, and then add the sesame oil.
+                <img src="https://www.cookingclassy.com/wp-content/uploads/2018/03/chicken-fried-rice-15.jpg" alt="sauce" style="width:50%">
+              <br>
+   <li>When it's about done add in the scallions and stir while adding seasonings like MSG or salt and pepper to your liking.
+                <img src="https://i2.wp.com/gimmedelicious.com/wp-content/uploads/2020/05/ChickenFriedRice-GD-4.jpg" alt="finish" style="width:50%">
+  </ol>
+  
+  <hr>
+  <h2 id="Tips">Tips</h2>  
+   <ul>
+     <li>Use overnight rice because it's more firm and better when use to stir fry.
+       <li>A pinch of salt to the egg give the egg more flavor.
+         <li>Add the sesame oil near the end, if you add too early the flavor will disappear.
+           <li>Remember to toss and stir throughout cooking so the flavor and temperature remains balanced.
+             </ul>
+ 
+                
+        
+
+  
+  
+</body>
+</html>
